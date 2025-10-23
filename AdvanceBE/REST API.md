@@ -143,7 +143,7 @@ Query DB --- Write file --- Response file to client directly (not though third p
 
 ##### Issues:
 
-![rest](images/rest_api_1.png)
+![rest](./images/rest_api_1.png)
 
 - Request timeout
 - Client is blocked
@@ -154,7 +154,7 @@ Query DB --- Write file --- Response file to client directly (not though third p
 
 ##### Use case: export file
 
-![rest](/images/rest_api_2.png)
+![rest](images/rest_api_2.png)
 
 1. API request to export
    - Endpoint: `GET /products/jobs/export?name=pen`
@@ -178,7 +178,7 @@ Query DB --- Write file --- Response file to client directly (not though third p
 
 Use Webhook, BE call BE
 
-![rest](/images/rest_api_3.png)
+![rest](images/rest_api_3.png)
 
 ## Types of Async API
 
@@ -200,7 +200,7 @@ Use Webhook, BE call BE
 - Client generates and adds an **Idempotency Key** to the request header.
 - Server checks Idempotency Key with unique constraint in DB.
 
-![rest](/images/rest_api_4.png)
+![rest](images/rest_api_4.png)
 
 # 4. REST API Document
 
