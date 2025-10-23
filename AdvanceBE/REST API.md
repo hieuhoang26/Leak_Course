@@ -143,7 +143,7 @@ Query DB --- Write file --- Response file to client directly (not though third p
 
 ##### Issues:
 
-![rest](/images/rest_api_1.png)
+![rest](AdvanceBE/images/rest_api_1.png)
 
 - Request timeout
 - Client is blocked
